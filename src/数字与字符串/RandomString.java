@@ -10,7 +10,7 @@ public class RandomString {
            System.out.println(str);
     }
 
-    private static String randomString(int length) {
+    public static String randomString(int length) {
         char list[]=new char[length];
         int i=0;
         while(i<length){
