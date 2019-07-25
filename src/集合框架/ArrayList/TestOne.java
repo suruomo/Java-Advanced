@@ -1,11 +1,11 @@
-package 集合框架;
+package 集合框架.ArrayList;
 
 import java.util.ArrayList;
 
 public class TestOne extends ArrayList {
     @Override
     public boolean add(Object o) {
-        if(o instanceof Item||o instanceof Hero){
+        if(o instanceof Item ||o instanceof Hero){
             System.out.println("类型正确，可插入");
             return super.add(o);
         }

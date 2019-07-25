@@ -1,4 +1,4 @@
-package 集合框架;
+package 集合框架.ArrayList;
 
 public class Item {
     String name;

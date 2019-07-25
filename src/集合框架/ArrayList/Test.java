@@ -1,4 +1,6 @@
-package 集合框架;
+package 集合框架.ArrayList;
+
+import 集合框架.ArrayList.Hero;
 
 import java.util.ArrayList;
 

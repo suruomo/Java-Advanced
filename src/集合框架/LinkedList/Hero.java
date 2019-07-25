@@ -1,4 +1,4 @@
-package 集合框架;
+package 集合框架.LinkedList;
 
 public class Hero {
     public String name;
