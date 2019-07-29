@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /*
-插入100000数据，比较速度
+头部插入100000数据，比较速度
  */
 public class TestInsert {
     public static void main(String[] args) {
