@@ -16,9 +16,14 @@ public class Hero {
         this.name = name;
     }
 
-    // 重写toString方法
     public String toString() {
-        return name;
+        return "Hero [name=" + name + ", hp=" + hp + ", damage=" + damage + "]\r\n";
+    }
+
+    public Hero(String name, int hp, int damage) {
+        this.name = name;
+        this.hp = hp;
+        this.damage = damage;
     }
 
 }
