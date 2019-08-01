@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb85d0d0-1ead-4634-b342-c44446a77a61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eb85d0d0-1ead-4634-b342-c44446a77a61" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,27 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/集合框架/Collections/TestTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/集合框架/HashSet/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/集合框架/LinkedList/StackRelease/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,14 +76,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/集合框架/HashMap/ReverseKeyValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="36" column="52" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="36" selection-end-column="52" />
+            <state relative-caret-position="172">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/集合框架/几种set/TestOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#194#203#0" expanded="true" />
+                <element signature="e#425#434#0" expanded="true" />
+                <element signature="e#648#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/集合框架/几种set/TestTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -212,6 +213,8 @@
         <option value="$PROJECT_DIR$/src/集合框架/ArrayList和LinkedList比较/TestInsertPost.java" />
         <option value="$PROJECT_DIR$/src/集合框架/ArrayList和LinkedList比较/TeatIsertMiddle.java" />
         <option value="$PROJECT_DIR$/src/集合框架/HashMap/ReverseKeyValue.java" />
+        <option value="$PROJECT_DIR$/src/集合框架/几种set/TestOne.java" />
+        <option value="$PROJECT_DIR$/src/集合框架/几种set/TestTwo.java" />
       </list>
     </option>
   </component>
@@ -254,7 +257,7 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="集合框架" type="462c0819:PsiDirectoryNode" />
-              <item name="HashMap" type="462c0819:PsiDirectoryNode" />
+              <item name="几种set" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseKeyValue">
+  <component name="RunManager" selected="Application.TestTwo">
     <configuration name="ReverseKeyValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="集合框架.HashMap.ReverseKeyValue" />
       <module name="practice" />
@@ -349,12 +352,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="集合框架.ArrayList和LinkedList比较.TestQuery" />
+    <configuration name="TestTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="集合框架.几种set.TestTwo" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="集合框架.ArrayList和LinkedList比较.*" />
+          <option name="PATTERN" value="集合框架.几种set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,11 +367,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTwo" />
         <item itemvalue="Application.ReverseKeyValue" />
         <item itemvalue="Application.TeatIsertMiddle" />
         <item itemvalue="Application.TestInsert" />
         <item itemvalue="Application.TestInsertPost" />
-        <item itemvalue="Application.TestQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -394,12 +397,12 @@
       <workItem from="1564121051644" duration="4429000" />
       <workItem from="1564186597981" duration="50000" />
       <workItem from="1564364815054" duration="5003000" />
-      <workItem from="1564634922291" duration="546000" />
+      <workItem from="1564634922291" duration="1201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32956000" />
+    <option name="totallyTimeSpent" value="33611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -414,7 +417,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3069705" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3058659" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,8 +443,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/susu/树/基本操作/SearchNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/susu/二O一八年/Case.java" />
     <entry file="file://$PROJECT_DIR$/src/com/susu/二〇一五年/顺序栈/Match.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/数字与字符串/Format.java">
@@ -822,11 +823,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/集合框架/HashMap/ReverseKeyValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="36" column="52" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="36" selection-end-column="52" />
+        <state relative-caret-position="172">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/集合框架/几种set/TestOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#203#0" expanded="true" />
+            <element signature="e#425#434#0" expanded="true" />
+            <element signature="e#648#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/集合框架/几种set/TestTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
