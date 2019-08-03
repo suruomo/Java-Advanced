@@ -29,28 +29,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lambda/HeroChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lambda/TestLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#234#240#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lambda/TestLambdaTwo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="524">
@@ -120,11 +98,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/多线程/Runnable接口/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="-100">
+              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/多线程/匿名类实现/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding>
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#875#1045#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/多线程/练习/SearchFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+              <folding>
+                <element signature="e#732#907#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,8 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IO操作/DataStream.java" />
-        <option value="$PROJECT_DIR$/src/IO操作/对象类/Hero.java" />
         <option value="$PROJECT_DIR$/src/IO操作/对象类/Main.java" />
         <option value="$PROJECT_DIR$/src/集合框架/Hero.java" />
         <option value="$PROJECT_DIR$/src/集合框架/Test.java" />
@@ -209,12 +212,14 @@
         <option value="$PROJECT_DIR$/src/多线程/继承线程类/Thread.java" />
         <option value="$PROJECT_DIR$/src/多线程/Runnable接口/Battle.java" />
         <option value="$PROJECT_DIR$/src/多线程/Runnable接口/Main.java" />
+        <option value="$PROJECT_DIR$/src/多线程/匿名类实现/Main.java" />
+        <option value="$PROJECT_DIR$/src/多线程/练习/SearchFile.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-103" />
-    <option name="y" value="36" />
+    <option name="x" value="-500" />
+    <option name="y" value="82" />
     <option name="width" value="1940" />
     <option name="height" value="1100" />
   </component>
@@ -251,7 +256,7 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="多线程" type="462c0819:PsiDirectoryNode" />
-              <item name="Runnable接口" type="462c0819:PsiDirectoryNode" />
+              <item name="练习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SearchFile">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="多线程.Runnable接口.Main" />
       <module name="practice" />
@@ -320,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAggregate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambda.TestAggregate" />
+    <configuration name="SearchFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="多线程.练习.SearchFile" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.*" />
+          <option name="PATTERN" value="多线程.练习.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,8 +338,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambdaTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambda.TestLambdaTwo" />
+    <configuration name="TestAggregate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda.TestAggregate" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
@@ -361,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchFile" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Thread" />
         <item itemvalue="Application.NoThread" />
         <item itemvalue="Application.TestAggregate" />
-        <item itemvalue="Application.TestLambdaTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -393,12 +398,12 @@
       <workItem from="1564364815054" duration="5003000" />
       <workItem from="1564634922291" duration="3553000" />
       <workItem from="1564721922632" duration="157000" />
-      <workItem from="1564792480668" duration="3873000" />
+      <workItem from="1564792480668" duration="5312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39993000" />
+    <option name="totallyTimeSpent" value="41432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -453,23 +458,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/集合框架/LinkedList/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/集合框架/LinkedList/QueueRelease.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/集合框架/LinkedList/StackRelease/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -886,8 +874,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/多线程/Runnable接口/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-100">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/多线程/匿名类实现/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#875#1045#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/多线程/练习/SearchFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="e#732#907#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
