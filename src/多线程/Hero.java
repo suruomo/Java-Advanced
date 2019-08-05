@@ -6,10 +6,10 @@ public class Hero {
     public float hp;
 
     public int damage;
-    public void recover(){   //回血
+    public synchronized void recover(){   //回血
         hp=hp+1;
     }
-    public void hurt(){   //掉血
+    public synchronized void hurt(){   //掉血
         hp=hp-1;
     }
     public void attackHero(Hero h) {    //攻击英雄

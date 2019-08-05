@@ -2,6 +2,8 @@ package 多线程.同步;
 
 import 多线程.Hero;
 
+import java.io.ObjectInputStream;
+
 /*
 假设盖伦有10000滴血，并且在基地里，同时又被对方多个英雄攻击
 就是有多个线程在减少盖伦的hp
@@ -11,7 +13,6 @@ import 多线程.Hero;
  */
 public class TestOne {
     public static void main(String[] args) {
-
         final Hero gareen = new Hero();
         gareen.name = "盖伦";
         gareen.hp = 10000;
@@ -35,7 +36,7 @@ public class TestOne {
         for (int i = 0; i < n; i++) {
             Thread t = new Thread(){
                 public void run(){
-                    gareen.recover();
+                        gareen.recover();        //回血占用当前对象，掉血进程无法访问
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
@@ -53,7 +54,7 @@ public class TestOne {
         for (int i = 0; i < n; i++) {
             Thread t = new Thread(){
                 public void run(){
-                    gareen.hurt();
+                        gareen.hurt();        //掉血占用当前对象，回血进程无法访问
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
