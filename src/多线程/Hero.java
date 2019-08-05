@@ -6,8 +6,13 @@ public class Hero {
     public float hp;
 
     public int damage;
-
-    public void attackHero(Hero h) {
+    public void recover(){   //回血
+        hp=hp+1;
+    }
+    public void hurt(){   //掉血
+        hp=hp-1;
+    }
+    public void attackHero(Hero h) {    //攻击英雄
         try {
             //为了表示攻击需要时间，每次攻击暂停1000毫秒
             Thread.sleep(1000);
