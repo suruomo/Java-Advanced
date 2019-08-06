@@ -7,10 +7,24 @@ public class Hero {
 
     public int damage;
     public synchronized void recover(){   //回血
-        hp=hp+1;
+        hp = hp + 1;
+        System.out.printf("%s 回血1点,增加血后，%s的血量是%.0f%n", name, name, hp);
+        // 通知那些等待在this对象上的线程，可以醒过来了，如第20行，等待着的减血线程，苏醒过来
+        this.notify();
     }
     public synchronized void hurt(){   //掉血
-        hp=hp-1;
+        if (hp == 1) {
+            try {
+                // 让占有this的减血线程，暂时释放对this的占有，并等待
+                this.wait();
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+
+        hp = hp - 1;
+        System.out.printf("%s 减血1点,减少血后，%s的血量是%.0f%n", name, name, hp);
     }
     public void attackHero(Hero h) {    //攻击英雄
         try {
