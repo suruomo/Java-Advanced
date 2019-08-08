@@ -10,7 +10,10 @@ public class SearchFile {
     public static void main(String[] args) {
         File file=new File("D:\\Java\\Project\\practice\\src");
         String s="static";
+        long start=System.currentTimeMillis();
         search(file,s);
+        long end=System.currentTimeMillis();
+        System.out.printf("耗时:%dms",end-start);
     }
 
     private static void search(File file, String s) {
