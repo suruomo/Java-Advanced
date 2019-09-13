@@ -1,18 +1,17 @@
-package 集合框架.HashMap;
+package collections.hashmap;
 
-import 集合框架.ArrayList.Hero;
+import collections.arraylist.Hero;
 
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
 
-/*
-使用如下键值对，初始化一个HashMap：
-adc - 物理英雄
-apc - 魔法英雄
-t - 坦克
-
-对这个HashMap进行反转，key变成value,value变成key
+/**
+ * 使用如下键值对，初始化一个HashMap：
+ * adc - 物理英雄
+ * apc - 魔法英雄
+ * t - 坦克
+ *
+ * 对这个HashMap进行反转，key变成value,value变成key
+ * @author 苏若墨
  */
 public class ReverseKeyValue {
     public static void main(String[] args) {

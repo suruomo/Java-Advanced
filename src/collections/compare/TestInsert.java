@@ -1,11 +1,12 @@
-package collections.ArrayList和LinkedList比较;
+package collections.compare;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-/*
-头部插入100000数据，比较速度
+/**
+ * 头部插入100000数据，比较速度
+ * @author 苏若墨
  */
 public class TestInsert {
     public static void main(String[] args) {

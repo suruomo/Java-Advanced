@@ -1,9 +1,11 @@
-package 集合框架.ArrayList;
-
-import 集合框架.ArrayList.Hero;
+package collections.arraylist;
 
 import java.util.ArrayList;
 
+/**
+ * 测试类
+ * @author 苏若墨
+ */
 public class Test {
     public static void main(String[] args) {
         ArrayList heros = new ArrayList();

@@ -1,12 +1,14 @@
-package 集合框架.ArrayList;
-
-import 集合框架.ArrayList.Hero;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-//迭代器遍历用法
+/**
+ * 测试类
+ * 迭代器遍历用法
+ * @author 苏若墨
+ */
 public class TestTwo {
     public static void main(String[] args) {
         List<Hero> heros = new ArrayList<Hero>();

@@ -1,19 +1,28 @@
-package 集合框架.ArrayList;
+package collections.arraylist;
 
+/**
+ * 物品Item信息类
+ * @author 苏若墨
+ */
 public class Item {
     String name;
     int price;
 
-    public Item(){
+    public Item() {
 
     }
-
-    //提供一个初始化name的构造方法
-    public Item(String name){
+    /**
+     * 提供一个初始化name的构造方法
+     * @param name
+     */
+    public Item(String name) {
         this.name = name;
     }
 
-    public void effect(){
+    /**
+     * 物品使用效果函数
+     */
+    public void effect() {
         System.out.println("物品使用后，可以有效果");
     }
 

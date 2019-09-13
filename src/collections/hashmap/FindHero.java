@@ -1,23 +1,24 @@
-package 集合框架.HashMap;
+package collections.hashmap;
 
-import 集合框架.ArrayList.Hero;
+import collections.arraylist.Hero;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
-/*
-准备一个ArrayList其中存放3000000(三百万个)Hero对象，其名称是随机的,格式是hero-[4位随机数]
-hero-3229
-hero-6232
-hero-9365
-...
-
-因为总数很大，所以几乎每种都有重复，把名字叫做 hero-5555的所有对象找出来
-要求使用两种办法来寻找
-1. 不使用HashMap，直接使用for循环找出来，并统计花费的时间
-2. 借助HashMap，找出结果，并统计花费的时间
+/**
+ * 准备一个ArrayList其中存放3000000(三百万个)Hero对象，其名称是随机的,格式是hero-[4位随机数]
+ * hero-3229
+ * hero-6232
+ * hero-9365
+ * ...
+ *
+ * 因为总数很大，所以几乎每种都有重复，把名字叫做 hero-5555的所有对象找出来
+ * 要求使用两种办法来寻找
+ * 1. 不使用HashMap，直接使用for循环找出来，并统计花费的时间
+ * 2. 借助HashMap，找出结果，并统计花费的时间
+ * @author 苏若墨
  */
 public class FindHero {
     public static void main(String[] args) {

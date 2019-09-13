@@ -1,19 +1,17 @@
-package 集合框架.ArrayList;
-
-import 集合框架.ArrayList.Hero;
+package collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/*
-首先初始化一个Hero集合，里面放100个Hero对象，名称分别是从
-hero 0
-hero 1
-hero 2
-...
-hero 99.
-
-通过遍历的手段，删除掉名字编号是8的倍数的对象
+/**
+ * 首先初始化一个Hero集合，里面放100个Hero对象，名称分别是从
+ * hero 0
+ * hero 1
+ * hero 2
+ * ...
+ * hero 99.
+ * 通过遍历的手段，删除掉名字编号是8的倍数的对象
+ * @author 苏若墨
  */
 public class RemoveHero {
     public static void main(String[] args) {

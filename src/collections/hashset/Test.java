@@ -1,4 +1,4 @@
-package 集合框架.HashSet;
+package collections.hashset;
 
 import java.util.HashSet;
 

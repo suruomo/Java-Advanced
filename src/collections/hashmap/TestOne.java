@@ -1,11 +1,12 @@
-package 集合框架.HashMap;
+package collections.hashmap;
 
-import 集合框架.ArrayList.Hero;
+import collections.arraylist.Hero;
 
 import java.util.HashMap;
 
-/*
-HashMap储存数据的方式是—— 键值对
+/**
+ * HashMap储存数据的方式是—— 键值对
+ * @author 苏若墨
  */
 public class TestOne {
     public static void main(String[] args) {

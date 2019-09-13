@@ -1,7 +1,11 @@
-package 集合框架.ArrayList;
+package collections.arraylist;
 
 import java.util.ArrayList;
 
+/**
+ * 测试类
+ * @author 苏若墨
+ */
 public class TestOne extends ArrayList {
     @Override
     public boolean add(Object o) {

@@ -1,11 +1,12 @@
-package collections.ArrayList和LinkedList比较;
+package collections.compare;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-/*
-在List的中间位置，插入数据，比较ArrayList快，还是LinkedList快，并解释为什么？
+/**
+ * 在List的中间位置，插入数据，比较ArrayList快，还是LinkedList快，并解释为什么？
+ * @author 苏若墨
  */
 public class TeatIsertMiddle {
     public static void main(String[] args) {

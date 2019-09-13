@@ -1,9 +1,13 @@
-package collections.ArrayList和LinkedList比较;
+package collections.compare;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * 测试类
+ * @author 苏若墨
+ */
 public class TestQuery {
     public static void main(String[] args) {
         int n=100000;
