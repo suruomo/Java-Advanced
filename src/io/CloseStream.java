@@ -3,13 +3,15 @@ package io;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-/*
-这是标准的关闭流的方式
-1. 首先把流的引用声明在try的外面，如果声明在try里面，其作用域无法抵达finally.
-2. 在finally关闭之前，要先判断该引用是否为空
-3. 关闭的时候，需要再一次进行try catch处理
 
-这是标准的严谨的关闭流的方式
+/**
+ * 这是标准的关闭流的方式
+ * 1. 首先把流的引用声明在try的外面，如果声明在try里面，其作用域无法抵达finally.
+ * 2. 在finally关闭之前，要先判断该引用是否为空
+ * 3. 关闭的时候，需要再一次进行try catch处理
+ *
+ * 这是标准的严谨的关闭流的方式
+ * @author 苏若墨
  */
 public class CloseStream {
     public static void main(String[] args) {
@@ -27,7 +29,7 @@ public class CloseStream {
             e.printStackTrace();
         } finally {
             // 在finally 里关闭流
-            if (null != fis)
+            if (null != fis) {
                 try {
 
                     fis.close();
@@ -35,6 +37,7 @@ public class CloseStream {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
+            }
         }
     }
 }
