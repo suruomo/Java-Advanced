@@ -6,8 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/*
-Lambda实现方式
+/**
+ * Lambda实现方式
+ * @author 苏若墨
  */
 public class TestLambda {
     public static void main(String[] args) {
@@ -24,8 +25,9 @@ public class TestLambda {
 
     private static void filter(List<Hero> heros,HeroChecker checker) {
         for (Hero hero : heros) {
-            if(checker.test(hero))
+            if(checker.test(hero)) {
                 System.out.print(hero);
+            }
         }
     }
 
