@@ -21,12 +21,7 @@ public class Compare {
         }
         System.out.println("初始化后的集合：");
         System.out.println(heros);
-        /**
-         *  直接调用sort会出现编译错误，因为Hero有各种属性
-         *          到底按照哪种属性进行比较，Collections也不知道，不确定，所以没法排
-         *          Collections.sort(heros);
-         *          引入Comparator，指定比较的算法
-         */
+
         Comparator<Hero> c = new Comparator<Hero>() {
             @Override
             public int compare(Hero h1, Hero h2) {

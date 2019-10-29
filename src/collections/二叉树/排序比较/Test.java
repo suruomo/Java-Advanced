@@ -3,13 +3,15 @@ package collections.二叉树.排序比较;
 
 import collections.二叉树.Node;
 
-/*
-创建4万个随机数，然后用分别用冒泡法，选择法，二叉树3种排序算法进行排序，比较哪种更快
+
+/**
+ * 创建4万个随机数，然后用分别用冒泡法，选择法，二叉树3种排序算法进行排序，比较哪种更快
+ * @author 苏若墨
  */
 public class Test {
     public static void main(String[] args) {
         int n=40000;
-        int a[]=new int[n];
+        int[] a =new int[n];
         for(int i=0;i<n;i++){
             a[i]=(int) (Math.random()*1000);
         }
@@ -59,8 +61,9 @@ public class Test {
                     a[j]=t;
                 }
             }
-            if(flag=false)
+            if(flag=false) {
                 break;
+            }
         }
         long end=System.currentTimeMillis();
         System.out.println("冒泡排序耗时(ms):"+(end-start));

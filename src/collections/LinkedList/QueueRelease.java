@@ -3,6 +3,9 @@ package collections.LinkedList;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * @author 苏若墨
+ */
 public class QueueRelease {
     public static void main(String[] args) {
         //和ArrayList一样，LinkedList也实现了List接口

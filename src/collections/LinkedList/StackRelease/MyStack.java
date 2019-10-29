@@ -4,6 +4,9 @@ import collections.arraylist.Hero;
 
 import java.util.LinkedList;
 
+/**
+ * @author 苏若墨
+ */
 public class MyStack implements Stack {
     public static void main(String[] args) {
       MyStack myStack=new MyStack();

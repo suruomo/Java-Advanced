@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/*
-首先初始化一个List,长度是10，值是0-9。
-然后不断的shuffle，直到前3位出现
-3 1 4
-
-shuffle 1000,000 次，统计出现的概率
+/**
+ * 首先初始化一个List,长度是10，值是0-9。
+ * 然后不断的shuffle(随机打乱顺序），直到前3位出现
+ * 3 1 4
+ *
+ * shuffle 1000,000 次，统计出现的概率
+ * @author 苏若墨
  */
 public class TestTwo {
     public static void main(String[] args) {

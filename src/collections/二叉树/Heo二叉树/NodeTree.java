@@ -3,41 +3,46 @@ package collections.二叉树.Heo二叉树;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author 苏若墨
+ */
 public class NodeTree {
-    // 左子节点
+
     public NodeTree leftNode;
-    // 右子节点
+
     public NodeTree rightNode;
 
-    // 当前结点的值
     public HeroNode heroNode;
 
-    // 插入 数据
+
     public void add(HeroNode  v) {
         // 如果当前节点没有值，就把数据放在当前节点上
-        if (null == heroNode)
+        if (null == heroNode) {
             heroNode = v;
+        }
 
             // 如果当前节点有值，就进行判断，新增的值与当前值的大小关系
         else {
             // 新增的值，比当前值小或者相同
 
             if ( v.hp - heroNode.hp<= 0) {
-                if (null == leftNode)
+                if (null == leftNode) {
                     leftNode = new NodeTree();
+                }
                 leftNode.add(v);
             }
             // 新增的值，比当前值大
             else {
-                if (null == rightNode)
+                if (null == rightNode) {
                     rightNode = new NodeTree();
+                }
                 rightNode.add(v);
             }
 
         }
 
     }
-    // 中序遍历所有的节点
+
     public List<HeroNode> inOrder() {
         List<HeroNode> values = new ArrayList<>();
 
