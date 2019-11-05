@@ -6,8 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/*
-引入静态方法
+/**
+ * 引入静态方法
+ * @author 苏若墨
  */
 public class TestLambdaTwo {
     public static void main(String[] args) {
@@ -20,6 +21,7 @@ public class TestLambdaTwo {
         System.out.println(heros);
 
         HeroChecker c = new HeroChecker() {
+            @Override
             public boolean test(Hero h) {
                 return h.hp>100 && h.damage<50;
             }
@@ -41,8 +43,9 @@ public class TestLambdaTwo {
 
     private static void filter(List<Hero> heros, HeroChecker checker) {
         for (Hero hero : heros) {
-            if (checker.test(hero))
+            if (checker.test(hero)) {
                 System.out.print(hero);
+            }
         }
     }
 

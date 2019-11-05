@@ -6,8 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/*
-聚合操作
+/**
+ * 聚合操作
+ * @author 苏若墨
  */
 public class TestAggregate {
     public static void main(String[] args) {
