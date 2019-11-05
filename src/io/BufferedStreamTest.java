@@ -2,10 +2,12 @@ package io;
 
 import java.io.*;
 
-/*
-采用缓存流。
-缓存流在读取的时候，会一次性读较多的数据到缓存中，以后每一次的读取，都是在缓存中访问，直到缓存中的数据读取完毕，再到硬盘中读取。
 
+
+/**
+ * 采用缓存流。
+ * 缓存流在读取的时候，会一次性读较多的数据到缓存中，以后每一次的读取，都是在缓存中访问，直到缓存中的数据读取完毕，再到硬盘中读取。
+ * @author 苏若墨
  */
 public class BufferedStreamTest {
     public static void main(String[] args) {

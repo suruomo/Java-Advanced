@@ -1,9 +1,10 @@
 package io;
 
 import java.io.UnsupportedEncodingException;
-/*
-找出 E5 B1 8C 这3个十六进制对应UTF-8编码的汉字
-uTF-8用三个字节存一个汉字，用一个字节存数字和字母
+/**
+ * 找出 E5 B1 8C 这3个十六进制对应UTF-8编码的汉字
+ * uTF-8用三个字节存一个汉字，用一个字节存数字和字母
+ * @author 苏若墨
  */
 public class UTFCode {
     public static void main(String[] args) throws UnsupportedEncodingException {

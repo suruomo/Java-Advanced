@@ -2,6 +2,10 @@ package io.对象类;
 
 import java.io.*;
 
+/**
+ * 测试类
+ * @author 苏若墨
+ */
 public class Main {
     public static void main(String[] args) {
         Hero hero=new Hero();

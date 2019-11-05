@@ -2,12 +2,20 @@ package io;
 
 import java.io.*;
 
+/**
+ * 移除Java文件中以//k开头的注释
+ * @author 苏若墨
+ */
 public class DeleteAnnotation {
     public static void main(String[] args) {
         File file = new File("F:/cong/code/java_learn/cong-javaMiddle/src/io/NumberStringChange.java");
         removeComments(file);
     }
-    //设计一个方法，用于移除Java文件中以//k开头的注释
+
+    /**
+     * 设计一个方法，用于移除Java文件中以//k开头的注释
+     * @param javaFile
+     */
     private static void removeComments(File javaFile){
         File resFile = new File(javaFile.getParent(),"new"+javaFile.getName());
         System.out.printf("选中的java文件为：%s%n", javaFile.getAbsolutePath());
@@ -19,10 +27,12 @@ public class DeleteAnnotation {
         ) {
             while (true){
                 String s = bufferedReader.readLine();
-                if(s==null)
+                if(s==null){
                     break;
-                if(!s.trim().startsWith("//"))
+                }
+                if(!s.trim().startsWith("//")){
                     printWriter.println(s);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();

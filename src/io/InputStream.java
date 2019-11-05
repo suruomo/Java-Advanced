@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+/**
+ * @author 苏若墨
+ */
 public class InputStream {
     public static void main(String[] args) {
         try {

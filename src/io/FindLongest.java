@@ -2,18 +2,19 @@ package io;
 
 import java.io.File;
 
-/*
-
-一般说来操作系统都会安装在C盘，所以会有一个 C:\WINDOWS目录。
-
-遍历这个目录下所有的文件(不用遍历子目录)
-
-找出这些文件里，最大的和最小(非0)的那个文件，打印出他们的文件名
+/**
+ * 一般说来操作系统都会安装在C盘，所以会有一个 C:\WINDOWS目录。
+ *
+ * 遍历这个目录下所有的文件(不用遍历子目录)
+ *
+ * 找出这些文件里，最大的和最小(非0)的那个文件，打印出他们的文件名
+ * @author 苏若墨
  */
 public class FindLongest {
     public static void main(String[] args) {
         File fe=new File("C:\\WINDOWS");
-        File[] files=fe.listFiles();   //以文件数组的形式，返回当前文件夹下的所有文件（不包含子文件及子文件夹）
+        //以文件数组的形式，返回当前文件夹下的所有文件（不包含子文件及子文件夹）
+        File[] files=fe.listFiles();
         float file_max=Float.MIN_VALUE;
         float file_min=Float.MAX_VALUE;
         File max_file = null;

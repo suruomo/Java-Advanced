@@ -11,8 +11,9 @@ public class TestTwo {
         LinkedHashSet<Character> l=new LinkedHashSet<>();
         String s=String.valueOf(Math.PI);
         for(char c:s.toCharArray()){
-            if(c=='.')
+            if(c=='.') {
                 continue;
+            }
             l.add(c);
         }
         System.out.println(l);

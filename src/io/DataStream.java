@@ -2,11 +2,12 @@ package io;
 
 import java.io.*;
 
-/*
-DataInputStream 数据输入流
-DataOutputStream 数据输出流
- 要用DataInputStream 读取一个文件，这个文件必须是由DataOutputStream 写出的，
- 否则会出现EOFException，因为DataOutputStream 在写出的时候会做一些特殊标记，只有DataInputStream 才能成功的读取。
+/**
+ * DataInputStream 数据输入流
+ * DataOutputStream 数据输出流
+ *  要用DataInputStream 读取一个文件，这个文件必须是由DataOutputStream 写出的，
+ *  否则会出现EOFException，因为DataOutputStream 在写出的时候会做一些特殊标记，只有DataInputStream 才能成功的读取。
+ * @author 苏若墨
  */
 public class DataStream {
     public static void main(String[] args) {
